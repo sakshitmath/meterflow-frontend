@@ -1,16 +1,33 @@
-# React + Vite
+# MeterFlow — Usage-Based API Billing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack SaaS platform inspired by Stripe and AWS API Gateway.
 
-Currently, two official plugins are available:
+## Live Demo
+- Frontend: https://meterflow-frontend-git-main-sakshitmaths-projects.vercel.app
+- Backend: https://meterflow-backend-kbyx.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- JWT Authentication (Register/Login)
+- Create and manage APIs
+- Generate API Keys
+- API Gateway with X-API-KEY header
+- Usage logging for every request
+- Billing engine (current/history/calculate)
+- Analytics dashboard with charts
 
-## React Compiler
+## Tech Stack
+- Backend: Spring Boot 3.3.6, Java 21, PostgreSQL
+- Frontend: React, Tailwind CSS, Recharts, Vite
+- Security: JWT + Spring Security
+- Deployment: Render (backend) + Vercel (frontend)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Setup Locally
+### Backend
+cd backend
+mvn clean install
+./mvnw spring-boot:run
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+cd frontend
+npm install
+npm run dev
