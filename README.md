@@ -31,3 +31,59 @@ mvn clean install
 cd frontend
 npm install
 npm run dev
+
+## Screenshots
+
+### Login Page
+
+
+![Login](Log%20In%20page.png)
+
+
+
+### Dashboard
+
+
+![Dashboard](Dashboard1.png)
+
+
+
+### Dashboard 2
+
+
+![Dashboard2](Dahsboard2.png)
+
+
+
+### My APIs
+
+
+![APIs](My%20API's%20Tab.png)
+
+
+
+### API Keys
+
+
+![APIKeys](API's%20Keys.png)
+
+
+
+### Billing
+
+
+![Billing](Billing.png)
+
+
+
+### Gateway
+
+
+![Gateway](Gateway1.png)
+
+
+
+### Gateway Logs
+
+
+![Gateway2](Gateway2.png)
